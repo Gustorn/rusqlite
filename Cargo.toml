@@ -13,6 +13,7 @@ license = "MIT"
 name = "rusqlite"
 
 [features]
+default = ["bundled"]
 load_extension = []
 backup = []
 blob = []
